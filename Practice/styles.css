@@ -1,0 +1,295 @@
+body {
+    font-family: 'quicksand' , sans-serif;
+    font-weight: 700;
+    color: #ffffff;
+    line-height: 1.5;
+    margin: 0;
+}
+.target-color-font{
+    color:#132640
+}
+.target-headers
+{color: #E6C27B;}
+
+.target-another{
+    color:#ffffff
+}
+
+h1{font-size: 40px}
+
+h2 {
+    font-size: 30px;
+}
+h3{
+    font-size: 25px
+
+}
+h4{
+    font-size: 20px;
+}
+
+h5{
+    font-size: 18px;
+}
+
+p{
+    font-size:16px;
+    color:#132640;
+}
+
+.white{
+    color:#ffffff
+}
+
+nav {
+    display: flex;
+    flex-direction:row wrap;
+    justify-content: right;
+    padding-right: 60px;
+    top:0;
+    position: sticky;
+    background-color: #132640;
+}
+
+.border-nav{
+    border-color:#E6C27B;
+    border-width: 10px;
+    border-bottom-style: solid;
+}
+
+a {
+    text-decoration: none;
+    color: white
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+.border-footer{
+    border-color:#E6C27B;
+    border-width: 10px;
+    border-top-style: solid;
+}
+/*Profile Container*/
+.hero-container {
+    display:flex;
+    flex-direction: row wrap;
+    align-items: center;
+    
+}
+.hero-pic{
+    width:500px;
+}
+
+.hero-copy{
+    padding-left: 5%;
+    width:50%;
+    
+}
+.site-header{
+    display:flex;
+    justify-content: center;
+    padding:20px;
+}   
+
+
+
+/*Card Container*/
+.card-container{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin: auto auto 60px auto;
+    
+}
+
+.card{
+   background-color:#132640;
+   margin: 20px;
+}   
+
+.card-copy{
+    padding: 0 20px 20px 20px;
+    text-align: center;
+    background-color:#132640;
+}
+    
+.link:hover{
+    text-decoration:underline;
+}
+.content{
+    width: 50%
+}
+
+/*case study info*/
+.case-study-header{
+    text-align: center;
+}
+.border-divider{
+    width:100%;
+    border-style:dotted;
+    border-width: 10px;
+    border-color:#132640:
+}
+.case-study-content{
+    align-content: center;
+    width: 40%;
+    padding-right: 20px;
+}
+.case-study-content2{
+    width: 25%;
+    padding-left: 20px;
+    padding-right: 20px;
+}   
+.img-size{
+    width: 400px;
+}
+.storyboard-card
+{width: 21%;
+padding: 20px;}
+
+.img-container{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 40px;
+}
+
+
+footer {
+    display:flex;
+    justify-content: center;
+    text-align: center;
+    background-color:#132640;
+    margin-top: 50px;
+    
+}
+
+.copyright{
+    font-size: 10px;
+    margin-top:30px;
+    color:#ffffff;
+}
+
+.line-border{
+    margin: auto;
+    width: 90%;
+    border-width: 3px;
+    border-style: solid;
+    border-color: #132640;
+}
+
+.line-border-dotted{
+    margin: auto;
+    width: 90%;
+    border-width: 1px;
+    border-style: dotted;
+    border-color: #132640;
+    margin-bottom:30px;
+}
+.button{
+background-color:#132640;
+padding: 15px 20px;
+margin:20px;
+}
+.card-container2{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin: auto auto 60px] auto;
+  
+}
+/*Responsiveness Media Query*/
+@media screen and (max-width: 768px) {
+    nav{
+        display:flex;
+        justify-content: center;
+        
+}
+
+h1 {
+    font-size: 24px;
+}
+
+h2 {
+    font-size: 18px;
+}
+
+h3 { 
+    font-size: 18px;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+}
+.hero-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.hero-pic{
+    display:flex;
+    justify-content: center;
+    width: 90%;
+ }
+
+.hero-copy {
+    min-width: 90%;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+.card-container{ 
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+}
+.card-copy{
+    padding: 0 20px 20px 20px;
+    text-align: center;}
+
+.case-study-content{
+        justify-content: column;
+        align-content: center;
+        width: 100%;
+        margin: 0; 
+        padding-right:20px;
+}
+.content{
+    align-content: center;
+    width: 100%;
+}
+
+.case-study-content2{
+    justify-content: column;
+    align-content: center;
+    width: 100%;
+}
+
+    .storyboard-card
+{width: 100%;
+padding: 20px;}
+
+.line-border{
+    margin: auto;
+    width: 100%;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #132640;}
+
+ .line-border-dotted{
+        margin: auto;
+        width: 100%;
+        border-width: 1px;
+        border-style: dotted;
+        border-color: #132640;
+        margin-bottom:30px;
+    }
+
+    
